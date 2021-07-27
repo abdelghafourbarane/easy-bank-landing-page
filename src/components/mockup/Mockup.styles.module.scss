@@ -1,0 +1,17 @@
+.mockup_wrapper {
+  background-color: transparent;
+  width: 40rem;
+  position: absolute;
+  height: 50rem;
+  overflow: hidden;
+
+  top: 4rem;
+  right: 0;
+  z-index: 20;
+
+  .mockup_image {
+    position: absolute;
+    top: -7rem;
+    // box-shadow: 4px black;
+  }
+}
