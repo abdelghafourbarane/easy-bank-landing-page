@@ -1,18 +1,13 @@
 import classes from "./ArticleContainer.styles.module.scss";
 
-function ArticleContainer() {
+function ArticleContainer({ imageUrl, author, title, description }) {
   return (
     <div className={classes.article_container}>
-      <img src="/assets/image-currency.jpg" />
+      <img src={`${imageUrl}`} />
       <div className={classes.text_container}>
-        <span className={classes.author}>by Claire Robinson</span>
-        <span className={classes.title}>
-          Receive money in any currency with no fees
-        </span>
-        <span className={classes.description}>
-          The world is getting smaller and we’re becoming more mobile. So why
-          should you be forced to only receive money in a single …
-        </span>
+        <span className={classes.author}>{`By ${author}`}</span>
+        <span className={classes.title}>{title}</span>
+        <span className={classes.description}>{description}</span>
       </div>
     </div>
   );

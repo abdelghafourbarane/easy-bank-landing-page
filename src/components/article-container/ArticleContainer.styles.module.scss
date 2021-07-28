@@ -6,8 +6,9 @@
   overflow: hidden;
 
   img {
-    width: 100%;
-    height: auto;
+    // width: auto;
+    height: 10rem;
+    object-fit: cover;
   }
 
   .text_container {
@@ -28,7 +29,7 @@
 
     .description {
       color: hsl(233, 8%, 62%);
-      font-size: 0.9rem;
+      font-size: 0.8rem;
       line-height: 1.2rem;
     }
   }

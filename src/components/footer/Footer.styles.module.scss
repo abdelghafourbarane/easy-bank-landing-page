@@ -1,0 +1,59 @@
+.footer {
+  padding: 5rem 10rem;
+  background-color: hsl(233, 26%, 24%);
+  color: hsl(0, 0%, 98%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .brands_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .logo {
+      fill: white !important;
+    }
+
+    .social_list {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      img {
+        filter: brightness(98%);
+        cursor: pointer;
+      }
+    }
+  }
+
+  .pages_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1rem;
+    column-gap: 4rem;
+    color: hsl(220, 16%, 92%);
+    font-size: 0.9rem;
+
+    a {
+      cursor: pointer;
+    }
+  }
+
+  .copyright_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+    width: 40%;
+
+    span {
+      font-size: 0.8rem;
+      color: hsl(233, 8%, 62%);
+    }
+
+    .special_button {
+      align-self: flex-end;
+    }
+  }
+}
