@@ -1,0 +1,35 @@
+.article_container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .text_container {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .author {
+      color: hsl(233, 8%, 62%);
+      font-size: 0.7rem;
+      margin-bottom: 1rem;
+    }
+    .title {
+      color: hsl(233, 26%, 24%);
+      margin-bottom: 1rem;
+    }
+
+    .description {
+      color: hsl(233, 8%, 62%);
+      font-size: 0.9rem;
+      line-height: 1.2rem;
+    }
+  }
+}
