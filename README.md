@@ -14,7 +14,7 @@ This is a solution to the [Easybank landing page challenge on Frontend Mentor](h
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 
 ## Overview
@@ -32,14 +32,15 @@ Users should be able to:
 * Desktop version (width : 1440px)
 ![Desktop version](./screenshots/desktop_version.png)
 
-*Mobile version (width : 375px)
+* Mobile version (width : 375px)
+
 ![Mobile version](./screenshots/mobile_version.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-version-using-html5-css3-and-react-js-JB7WAVp_h)
+- Live Site URL: [Add live site URL here](https://baraneeasybank.netlify.app/)
 
 ## My process
 
