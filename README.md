@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-version-using-html5-css3-and-react-js-JB7WAVp_h)
-- Live Site URL: [Add live site URL here](https://baraneeasybank.netlify.app/)
+- Solution URL: [Frontend Mentor solution page](https://www.frontendmentor.io/solutions/responsive-version-using-html5-css3-and-react-js-JB7WAVp_h)
+- Live Site URL: [Live Demo](https://baraneeasybank.netlify.app/)
 
 ## My process
 
