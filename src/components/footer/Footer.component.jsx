@@ -3,6 +3,11 @@ import SpecialButton from "../special-button/SpecialButton.component";
 import classes from "./Footer.styles.module.scss";
 
 import { ReactComponent as Logo } from "../../assets/logo.svg";
+import { ReactComponent as FacebookLogo } from "../../assets/icon-facebook.svg";
+import { ReactComponent as InstagramLogo } from "../../assets/icon-instagram.svg";
+import { ReactComponent as YoutubeLogo } from "../../assets/icon-youtube.svg";
+import { ReactComponent as PinterestLogo } from "../../assets/icon-pinterest.svg";
+import { ReactComponent as TwitterLogo } from "../../assets/icon-twitter.svg";
 
 function Footer() {
   return (
@@ -10,16 +15,16 @@ function Footer() {
       <div className={classes.brands_container}>
         <Logo className={classes.logo} />
         <div className={classes.social_list}>
-          <img src="/assets/icon-facebook.svg" />
-          <img src="/assets/icon-youtube.svg" />
-          <img src="/assets/icon-twitter.svg" />
-          <img src="/assets/icon-pinterest.svg" />
-          <img src="/assets/icon-instagram.svg" />
+          <FacebookLogo fill="current" className={classes.social_icon} />
+          <YoutubeLogo className={classes.social_icon} />
+          <TwitterLogo className={classes.social_icon} />
+          <PinterestLogo className={classes.social_icon} />
+          <InstagramLogo className={classes.social_icon} />
         </div>
       </div>
       <div className={classes.pages_list}>
-        <a>About Us</a>
         <a>Careers</a>
+        <a>About Us</a>
         <a>Contact</a>
         <a>Support</a>
         <a>Blog</a>

@@ -15,6 +15,10 @@ function MainContainer() {
       </div>
       <div className={classes.image_container}>
         <img className={classes.image_bg} src="/assets/bg-intro-desktop.svg" />
+        <img
+          className={classes.image_bg_mobile}
+          src="/assets/bg-intro-mobile.svg"
+        />
       </div>
     </div>
   );
